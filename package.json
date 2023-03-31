@@ -1,0 +1,19 @@
+{
+  "name": "qr-api",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "endpts dev"
+  },
+  "devDependencies": {
+    "@endpts/devtools": "^1.0.0",
+    "@endpts/types": "^1.0.0",
+    "@types/node": "^18.15.11",
+    "@types/qrcode": "^1.5.0",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.1"
+  }
+}
